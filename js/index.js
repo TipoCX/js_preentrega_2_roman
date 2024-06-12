@@ -18,7 +18,6 @@ function calcularCuotas(cuotasAux, precioAux, interesAux) {
         return preciofinalcuotas;
     } else {
         preciofinalcuotas = (precioAux + (precioAux * (interesAux / 100))) / cuotasAux;
-        console.log();
         return preciofinalcuotas;
     }
 }
