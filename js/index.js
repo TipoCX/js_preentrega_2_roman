@@ -27,7 +27,7 @@ let preciofinalcuotas = calcularCuotas(cuotas, precio, interes);
 
 
 function calcularCuotasConInputs() {
-    console.log(calcularCuotas(cuotas, precio, interes))
+    alert(`el valor de cada cuota es: ${calcularCuotas(cuotas, precio, interes)}`)
 }
 
 console.log(`el valor final de cada cuota es: ${calcularCuotas(cuotas, precio, interes)}`);
@@ -40,4 +40,5 @@ function calcSaldo(saldo) {
         console.log(`el saldo despues de la cuota ${aux} es: ${saldo}`);
         aux = aux + 1;
     }
+    alert(`el saldo despues de la cuota ${aux} es: ${saldo}`)
 }
