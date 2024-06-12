@@ -6,7 +6,6 @@ let cuotas = 1;
 let precio = 1;
 let interes = 1;
 let saldo = 100_000;
-
 cuotasInput.oninput = e => cuotas = parseInt(cuotasInput.value);
 precioInput.oninput = e => precio = parseInt(precioInput.value);
 interesInput.oninput = e => interes = parseInt(interesInput.value);
@@ -29,7 +28,6 @@ function calcularCuotasConInputs() {
     alert(`el valor de cada cuota es: ${calcularCuotas(cuotas, precio, interes)}`)
 }
 
-console.log(`el valor final de cada cuota es: ${calcularCuotas(cuotas, precio, interes)}`);
 //algo tenia que hacer con un loop
 
 function calcSaldo(saldo) {
